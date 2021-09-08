@@ -1,12 +1,21 @@
 <!DOCTYPE HTML>
 <html>
+
 <head>
     {% include header.html %}
+   
+    <ul>
+        {% for item in site.data.navlist.navs %}
+        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+        {% endfor %}
+    </ul>
 </head>
+
 <body>
 
     {{ content }}
-    
+
     {% include footer.html %}
 </body>
+
 </html>

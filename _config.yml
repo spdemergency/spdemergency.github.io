@@ -5,12 +5,12 @@ image_thumbs_loc: "/images/thumbs"
 google_analytics: "UA-46465113-2"
 
 # UI configs
-title: "Photography by Ram Patra"
-subtitle: "See the world through my eyes!"
-author: "Ram Patra"
+title: "Digital Art by SPD"
+subtitle: "Artist/Microbioligist"
+author: "SPD"
 header:
- title: "Photography"
- subtitle: "by Ram Patra"
+ title: "Digital Art"
+ subtitle: "by SPD"
 footer:
  name: "Hey there, my name is Ram"
  bio: "I am a developer and a tech aficionado from India. Love making teeny tiny apps solving tiny problems in life and now learning photography."
@@ -23,3 +23,16 @@ social_urls:
   dribbble: "https://dribbble.com/rampatra"
   linkedin: "https://in.linkedin.com/in/ram-patra"
   github: "https://www.github.com/rampatra"
+
+
+
+navs:
+
+- title: About
+  url: About.html
+
+- title: Shop
+  url:  https://sripradha.myinstamojo.com/
+
+- title: Contact
+  url: Contact.html
