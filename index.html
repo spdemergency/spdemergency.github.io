@@ -17,6 +17,19 @@ layout: default
     </header>
 
 
+    <!-- <div id="main">
+        {% for image in site.static_files %}
+        {% if image.path contains 'fulls' %}
+        <article class="thumb">
+            <a href="{{ site.baseurl }}{{ site.image_fulls_loc }}/{{ image.name }}" class="image">
+                <img src="{{ site.baseurl }}{{ site.image_thumbs_loc }}/{{ image.name }}" alt=""
+                     data-name="{{ image.name }}"/></a>
+          
+        </article>
+        {% endif %}
+        {% endfor %}
+    </div> -->
+
 
     <!-- Main -->
     <div id="main">
@@ -26,10 +39,10 @@ layout: default
      
 
         <article class="thumb">
-            <a href="{{imgj.image}}"  data-title="{{imgj.title}}" data-description="{{imgj.description }}"
+            <a href="{{ site.baseurl }}{{imgj.image}}"  
                 class="image">
 
-                <img src="{{imgj.thumb}}" alt="{{imgj.alt}}" />
+                <img src="{{ site.baseurl }}{{imgj.thumb}}" alt="{{imgj.alt}}" />
             </a>
         </article>
            
