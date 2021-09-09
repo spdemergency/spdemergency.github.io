@@ -22,21 +22,22 @@ layout: default
 
     <!-- Main -->
     <div id="main">
-        
-        {% for imgj in site.data.items %}
-       
-     
-
-        <article class="thumb">
-         
-
-                <img src="{{ site.baseurl }}/{{imgj.thumb}}" alt="{{imgj.alt}}" />
-         
-        </article>
+      
+            <ul id="og-grid" class="og-grid">
+                {% for imgr in site.data.items %}
+              
+                <article class="thumb">
+                    <a href="{{ site.baseurl }}/{{ imgr.image }}" class="image"
+                        alt="{{ project.title }}">
+                        <img src="{{ site.baseurl }}/{{ imgr.image }}" alt=""
+                            data-name="{{ image.name }}" /></a>
+                   
+                </article>
+              
+                {% endfor %} 
+            </ul>
            
-
-       
-        {% endfor %}
+        
     </div>
 
     <!-- Footer -->
