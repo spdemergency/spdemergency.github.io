@@ -2,10 +2,10 @@
 baseurl: "https://spdemergency.github.io"
 image_fulls_loc: "/images/fulls"
 image_thumbs_loc: "/images/thumbs"
-google_analytics: "UA-46465113-2"
+google_analytics: 
 
 # UI configs
-title: "Digital Art by SPD"
+title: "Art by SPD"
 subtitle: "Artist/Microbioligist"
 author: "SPD"
 header:
@@ -27,7 +27,6 @@ social_urls:
 
 
 navs:
-
 
 - title: Shop
   url:  https://sripradha.myinstamojo.com/

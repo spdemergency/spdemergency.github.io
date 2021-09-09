@@ -15,57 +15,7 @@ layout: default
         </nav>
     </header>
 
-    <!-- sidenav -->
-    <style>
-        .main-menu {
-            display: none;
-        }
-
-        .main-menu>ul {
-            display: flex;
-            align-items: center;
-            justify-content: flex-start;
-        }
-
-        .main-menu>ul>li {
-            list-style: none;
-            font-size: 1rem;
-        }
-
-        .main-menu>ul>li>a {
-            padding: 10px 12px 10px 12px;
-            display: inline-block;
-            font-weight: normal;
-            text-decoration: none;
-            color: "blue";
-        }
-
-        .main-menu>ul>li>a:hover {
-            text-decoration: underline;
-        }
-
-        .main-menu>ul>li.active>a {
-            font-weight: bold;
-            text-decoration: none;
-        }
-
-        .main-menu>ul>li.active>a:hover {
-            text-decoration: none;
-            transition: all 225ms ease-in 0s;
-        }
-    </style>
-
-    <div id="main-menu" class="main-menu">
-     
-        {% assign mainmenu =site.data.navlist.navs  %}
-        <ul>
-          {% for item in mainmenu %}
-          <li class="{% if item.url == page.url %}active{% endif %}">
-            <a href="{{ item.url }}">{{ item.title }}</a>
-          </li>
-          {% endfor %}
-        </ul>
-    </div>
+    
 
     <!-- Main -->
     <div id="main">
@@ -162,6 +112,12 @@ layout: default
                             <li><input type="reset" value="Reset" /></li>
                         </ul>
                     </form>
+                </section>
+            </div>
+            <div>
+                <section>
+                    <h2>Shop</h2>
+                <a href="https://sripradha.myinstamojo.com/" class="fas fa-cart-arrow-down">Shop</a>
                 </section>
             </div>
         </div>
