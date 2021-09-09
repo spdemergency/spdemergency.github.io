@@ -16,7 +16,20 @@ layout: default
         </nav>
     </header>
 
+<div>
+    {% for imgj in Site.Data.items.item %}
+       
+    <article class="thumb">
+        <a href="{{imgj.url}}" data-largesrc="{{imgj.image}}" data-title="{{imgj.title}}" data-description="{{imgj.description }}"
+            class="image">
 
+            <img src="{{imgj.thumb}}" alt="{{imgj.alt}}" />
+        </a>
+    </article>
+
+   
+    {% endfor %}
+</div>
 
     <!-- Main -->
     <div id="main">
@@ -32,7 +45,7 @@ layout: default
         {% endif %}
         {% endfor %} -->
         {% for imgj in Site.Data.items.item %}
-
+       
         <article class="thumb">
             <a href="{{imgj.url}}" data-largesrc="{{imgj.image}}" data-title="{{imgj.title}}" data-description="{{imgj.description }}"
                 class="image">
@@ -41,7 +54,7 @@ layout: default
             </a>
         </article>
 
-
+       
         {% endfor %}
     </div>
 
