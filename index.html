@@ -34,7 +34,7 @@ layout: default
         {% for imgj in Site.Data.items.item %}
        
         <article class="thumb">
-            <a href="{{imgj.url}}" data-largesrc="{{imgj.image}}" data-title="{{imgj.title}}" data-description="{{imgj.description }}"
+            <a href="{{ site.baseurl }}{{imgj.image}}"  data-title="{{imgj.title}}" data-description="{{imgj.description }}"
                 class="image">
 
                 <img src="{{imgj.thumb}}" alt="{{imgj.alt}}" />
