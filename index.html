@@ -31,16 +31,17 @@ layout: default
         </article>
         {% endif %}
         {% endfor %} -->
-        {% for image in Site.Data.items.items %}
-        <li>
-            <article class="thumb">
-                <a href="{{.url}}" data-largesrc="{{.image}}" data-title="{{.title}}"
-                    data-description="{{.description }}" class="image">
+        {% for imgj in Site.Data.items.items %}
 
-                    <img src="{{.thumb}}" alt="{{.alt}}" />
-            </article>
+        <article class="thumb">
+            <a href="{{imgj.url}}" data-largesrc="{{imgj.image}}" data-title="{{imgj.title}}" data-description="{{imgj.description }}"
+                class="image">
+
+                <img src="{{imgj.thumb}}" alt="{{imgj.alt}}" />
             </a>
-        </li>
+        </article>
+
+
         {% endfor %}
     </div>
 
