@@ -20,18 +20,26 @@ layout: default
 
     <!-- Main -->
     <div id="main">
-        {% for image in site.static_files %}
+        <!-- {% for image in site.static_files %}
         {% if image.path contains 'fulls' %}
         <article class="thumb">
             <a href="{{ site.baseurl }}{{ site.image_fulls_loc }}/{{ image.name }}" class="image"
                 alt="{{ project.title }}">
                 <img src="{{ site.baseurl }}{{ site.image_thumbs_loc }}/{{ image.name }}" alt=""
                     data-name="{{ image.name }}" /></a>
-            <!--<h2></h2>
-            <p></p>-->
+           
         </article>
         {% endif %}
-        {% endfor %}
+        {% endfor %} -->
+        {{ range $.Site.Data.items.items }}
+					<li>
+						<a href="{{.url}}" data-largesrc="{{.image}}" data-title="{{.title}}" data-description="{{.description }}" data-buttontext="{{.buttontext}}" class="image">
+                            <article class="thumb">
+							<img src="{{.thumb}}" alt="{{.alt}}"/>
+                        </article>
+						</a>
+					</li>
+					{{ end }}
     </div>
 
     <!-- Footer -->
