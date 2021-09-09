@@ -16,7 +16,7 @@ layout: default
         </nav>
     </header>
 
-    
+
 
     <!-- Main -->
     <div id="main">
@@ -31,16 +31,17 @@ layout: default
         </article>
         {% endif %}
         {% endfor %} -->
-        {{ range $.Site.Data.items.items }}
-					<li>
-                        <article class="thumb">
-						<a href="{{.url}}" data-largesrc="{{.image}}" data-title="{{.title}}" data-description="{{.description }}"  class="image">
-                           
-							<img src="{{.thumb}}" alt="{{.alt}}"/>
-                        </article>
-						</a>
-					</li>
-					{{ end }}
+        {% for image in Site.Data.items.items %}
+        <li>
+            <article class="thumb">
+                <a href="{{.url}}" data-largesrc="{{.image}}" data-title="{{.title}}"
+                    data-description="{{.description }}" class="image">
+
+                    <img src="{{.thumb}}" alt="{{.alt}}" />
+            </article>
+            </a>
+        </li>
+        {% endfor %}
     </div>
 
     <!-- Footer -->
@@ -52,11 +53,11 @@ layout: default
                     <p>{{ site.footer.bio }}</p>
                     <p>{{ site.footer.github }}</p>
                 </section>
-               
+
                 <section>
                     <h2>Follow me on ...</h2>
                     <ul class="icons">
-                       
+
                         {% if site.social_urls.instagram %}
                         <li>
                             <a href="{{ site.social_urls.instagram }}" class="icon fa-instagram">
@@ -64,7 +65,7 @@ layout: default
                             </a>
                         </li>
                         {% endif %}
-                      
+
                     </ul>
                 </section>
                 <p class="copyright">
@@ -91,7 +92,7 @@ layout: default
                     </form>
                 </section>
             </div>
-            
+
         </div>
     </footer>
 </div>
