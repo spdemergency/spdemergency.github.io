@@ -33,8 +33,9 @@ layout: default
         {% endfor %} -->
         {{ range $.Site.Data.items.items }}
 					<li>
-						<a href="{{.url}}" data-largesrc="{{.image}}" data-title="{{.title}}" data-description="{{.description }}" data-buttontext="{{.buttontext}}" class="image">
-                            <article class="thumb">
+                        <article class="thumb">
+						<a href="{{.url}}" data-largesrc="{{.image}}" data-title="{{.title}}" data-description="{{.description }}"  class="image">
+                           
 							<img src="{{.thumb}}" alt="{{.alt}}"/>
                         </article>
 						</a>
