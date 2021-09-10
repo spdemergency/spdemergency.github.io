@@ -32,8 +32,9 @@ layout: default
             {% for item in site.data.imagemapping.files %}
             <li class="thumb">
                 <a href="https://spdemergency.github.io/{{ item.id }}" class="image">
-
+                    <img src="{{ site.baseurl }}/{{ item.thumb }}}" alt=""/>
                 </a>
+              
             </li>
             {% endfor %}
         </ul>
