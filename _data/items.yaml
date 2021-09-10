@@ -3,106 +3,106 @@
 # description : ' i never scribbled on walls as a child so  I\'m compensating now, clearly.'
 
  
+ 1: 
+  - 'images/fulls/1.jpg'
+  - 'i never scribbled on walls as a child so  I\'m compensating now, clearly. '
  
-image : 'images/fulls/1.jpg'
-thumb : 'images/thumbs/1.jpg'
+ 
+ 
+ 
+ 2:
+- image : 'images/fulls/2.jpg'
+- 'i never scribbled on walls as a child so  I\'m compensating now, clearly. '
+ 
+ 
+ 
+ 
+ 3:
+- image : 'images/fulls/3.jpg'
+- 'i never scribbled on walls as a child so  I\'m compensating now, clearly. '
 
  
  
  
  
-image : 'images/fulls/2.jpg'
-thumb : 'images/thumbs/2.jpg'
+# image : 'images/fulls/4.jpg'
+# thumb : 'images/thumbs/4.jpg'
  
  
  
  
  
-image : 'images/fulls/3.jpg'
-thumb : 'images/thumbs/3.jpg'
-
- 
- 
- 
- 
-image : 'images/fulls/4.jpg'
-thumb : 'images/thumbs/4.jpg'
+# image : 'images/fulls/5.jpg'
+# thumb : 'images/thumbs/5.jpg'
  
  
  
  
  
-image : 'images/fulls/5.jpg'
-thumb : 'images/thumbs/5.jpg'
+# image : 'images/fulls/6.jpg'
+# thumb : 'images/thumbs/6.jpg'
  
  
  
  
  
-image : 'images/fulls/6.jpg'
-thumb : 'images/thumbs/6.jpg'
+# image : 'images/fulls/7.jpg'
+# thumb : 'images/thumbs/7.jpg'
  
  
  
  
  
-image : 'images/fulls/7.jpg'
-thumb : 'images/thumbs/7.jpg'
- 
- 
- 
- 
- 
-image : 'images/fulls/8.jpg'
-thumb : 'images/thumbs/8.jpg'
+# image : 'images/fulls/8.jpg'
+# thumb : 'images/thumbs/8.jpg'
  
  
   
  
  
-image : 'images/fulls/9.jpg'
-thumb : 'images/thumbs/9.jpg'
+# image : 'images/fulls/9.jpg'
+# thumb : 'images/thumbs/9.jpg'
  
  
  
  
  
-image : 'images/fulls/10.jpg'
-thumb : 'images/thumbs/10.jpg'
+# image : 'images/fulls/10.jpg'
+# thumb : 'images/thumbs/10.jpg'
  
  
  
  
  
-image : 'images/fulls/11.jpg'
-thumb : 'images/thumbs/12.jpg'
+# image : 'images/fulls/11.jpg'
+# thumb : 'images/thumbs/12.jpg'
  
  
  
  
  
-image : 'images/fulls/13.jpg'
-thumb : 'images/thumbs/13.jpg'
+# image : 'images/fulls/13.jpg'
+# thumb : 'images/thumbs/13.jpg'
  
  
  
  
  
-image : 'images/fulls/14.jpg'
-thumb : 'images/thumbs/14.jpg'
+# image : 'images/fulls/14.jpg'
+# thumb : 'images/thumbs/14.jpg'
  
  
  
  
  
-image : 'images/fulls/15.jpg'
-thumb : 'images/thumbs/16.jpg'
+# image : 'images/fulls/15.jpg'
+# thumb : 'images/thumbs/16.jpg'
  
  
  
  
  
-image : 'images/fulls/17.jpg'
-thumb : 'images/thumbs/17.jpg'
+# image : 'images/fulls/17.jpg'
+# thumb : 'images/thumbs/17.jpg'
  
  
