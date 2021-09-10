@@ -193,35 +193,18 @@ layout: default
         <div class="image-gallery">
             {% for item in site.data.imagemapping.files %}
             <div class="box">
-                <a href="https://spdemergency.github.io/{{ item.id }}" data-toggle="dropdown">
-                    <img src="{{ site.baseurl }}/{{ item.thumb }}" alt="" data-name="{{ item.title }}"
-                        class="img-gallery" onerror="this.style.display='none'" />
-                </a>
+               
                 <div class="wrapper wbot">
                     <div class="content">    
-                      <ul>
-                        <li><a href="#">Cool, HUH</a></li>
-                        <li><a href="#">Try to</a></li>
-                        <li><a href="#">Pull the</a></li>
-                        <li><a href="#">Arrow Up</a></li>
-                        
-                      </ul>
+                        <a href="https://spdemergency.github.io/{{ item.id }}" data-toggle="dropdown">
+                            <img src="{{ site.baseurl }}/{{ item.thumb }}" alt="" data-name="{{ item.title }}"
+                                class="img-gallery" onerror="this.style.display='none'" />
+                        </a>
                     </div>
                     <textarea class="elevator"></textarea>
                   </div>
                   
-                  <div class="wrapper wtop">  
-                    <div class="content ctop">    
-                      <ul>
-                        <li><a href="#">Cool, HUH</a></li>
-                        <li><a href="#">Try to</a></li>
-                        <li><a href="#">Pull the</a></li>
-                        <li><a href="#">Arrow Up</a></li>
-                       
-                      </ul>
-                    </div>   
-                    <textarea class="elevator"></textarea>
-                  </div>
+                 
             </div>
             {% endfor %}
         </div>
