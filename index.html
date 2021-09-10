@@ -25,9 +25,13 @@ layout: default
       
           
                 {% for imgr in site.data.items %}
-                console.log('imgr',imgr);
+                <script>
+                     console.log('imgr',imgr);
+                     console.log('{{ imgr.image }}');
+                 </script>
+               
                 <article class="thumb">
-                    console.log('{{ imgr.image }}',{{ imgr.image }});
+               
                     <a href="{{ imgr.image }}" class="image"
                        >
                         <img src="{{ imgr.image }}" /></a>
