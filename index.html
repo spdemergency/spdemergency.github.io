@@ -52,10 +52,10 @@ layout: default
         <div class="image-gallery">
             {% for item in site.data.imagemapping.files %}
             <div class="box">
-                <a href="https://spdemergency.github.io/{{ item.id }}">
+                <!-- <a href="https://spdemergency.github.io/{{ item.id }}"> -->
                     <img src="{{ site.baseurl }}/{{ item.thumb }}}" alt="" data-name="{{ item.title }}"
                         class="img-gallery" />
-                </a>
+                <!-- </a> -->
 
             </div>
             {% endfor %}
