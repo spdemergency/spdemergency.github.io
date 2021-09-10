@@ -22,19 +22,19 @@ layout: default
 
     <!-- Main -->
     <div id="main">
-
+<ul>
 
         {% for item in site.data.imagemapping.files %}
-        <article>
+        <li>
             <a href="https://spdemergency.github.io/{{ item.id }}" >
                 <img src="{{ site.baseurl }}/{{ item.thumb }}}" alt="" data-name="{{ item.title }}"/>
             </a>
 
-        </article>
+        </li>
         {% endfor %}
 
 
-
+    </ul>
         <!-- style="background-image: url(""); outline: 0px;" -->
     </div>
 
