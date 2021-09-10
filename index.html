@@ -24,17 +24,14 @@ layout: default
     <div id="main">
       
           
-                {% for imgr in site.data.items %}
-                <script>
-                     console.log('imgr',imgr);
-                     console.log('{{ imgr.image }}');
-                 </script>
+                {% for item in site.data.items %}
+               
                
                 <article class="thumb">
                
-                    <a href="{{ imgr.image }}" class="image"
+                    <a href="{{ item }}" class="image"
                        >
-                        <img src="{{ imgr.image }}" /></a>
+                        <img src="{{ item}}" /></a>
                    
                 </article>
               
