@@ -29,9 +29,9 @@ layout: default
                
                 <article class="thumb">
                
-                    <a href="https://spdemergency.github.io/{{ item.image }}" class="image" 
-                       >
-                        <img src="{{ item.image}}" /></a>
+                    <a href="{{.url}}" data-largesrc="{{.image}}" >
+                        <img src="{{.thumb}}" alt="{{.alt}}"/>
+                    </a>
                    
                 </article>
               
