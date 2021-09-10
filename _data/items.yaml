@@ -4,21 +4,21 @@
 
  
  1: 
-  - image : "images/fulls/1.jpg"
-  - des : "i never scribbled on walls as a child so  I'm compensating now, clearly. "
+  -  "images/fulls/1.jpg"
+  -  "i never scribbled on walls as a child so  I'm compensating now, clearly. "
  
  
  
  
 2: 
--  image : 'images/fulls/2.jpg'
--  des : ' never scribbled on walls as a ch '
+-   'images/fulls/2.jpg'
+-   ' never scribbled on walls as a ch '
  
 
  
 3:
-- image : "images/fulls/3.jpg"
-- des : "i never scribbled on walls as a child so I'm compensating now, clearly."
+-  "images/fulls/3.jpg"
+-  "i never scribbled on walls as a child so I'm compensating now, clearly."
 
  
  
