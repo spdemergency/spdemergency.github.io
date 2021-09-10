@@ -23,19 +23,18 @@ layout: default
     <!-- Main -->
     <div id="main">
       
-          
-                {% for item in site.data.items %}
-               
-               
-                <article class="thumb">
-               
-                    <a href="{{site.url}}" data-largesrc="{{.image}}" class="image">
-                        <img src="{{.thumb}}" alt="{{.alt}}"/>
-                    </a>
-                   
-                </article>
-              
-                {% endfor %} 
+        
+
+                
+                <ul>
+                    {% for member in site.data.items %}
+                    <li class="thumb">
+                        <a href="https://spdemergency.github.io/{{ member.thumb }}" class="image">
+                          {{ member.image }}
+                        </a>
+                      </li>
+                    {% endfor %}
+                    </ul>
            
            
                 <!-- style="background-image: url(""); outline: 0px;" -->
