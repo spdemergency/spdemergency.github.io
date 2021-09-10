@@ -1,25 +1,24 @@
  
 # alt : 'Digital drawing'
-# description : ' i never scribbled on walls as a child so  I\'m compensating now, clearly.'
+# description : " i never scribbled on walls as a child so  I'm compensating now, clearly."
 
  
  1: 
-  - 'images/fulls/1.jpg'
-  - 'i never scribbled on walls as a child so  I\'m compensating now, clearly. '
+  - "images/fulls/1.jpg"
+  -  "i never scribbled on walls as a child so  I'm compensating now, clearly. "
  
  
  
  
- 2:
-- image : 'images/fulls/2.jpg'
-- 'i never scribbled on walls as a child so  I\'m compensating now, clearly. '
+2: 
+- 'images/fulls/2.jpg'
+- ' never scribbled on walls as a ch '
  
+
  
- 
- 
- 3:
-- image : 'images/fulls/3.jpg'
-- 'i never scribbled on walls as a child so  I\'m compensating now, clearly. '
+3:
+- "images/fulls/3.jpg"
+- "i never scribbled on walls as a child so I'm compensating now, clearly."
 
  
  
