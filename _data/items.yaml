@@ -5,20 +5,20 @@
  
  1: 
   -  "images/fulls/1.jpg"
-  -  "i never scribbled on walls as a child so  I'm compensating now, clearly. "
+  des:  "i never scribbled on walls as a child so  I'm compensating now, clearly. "
  
  
  
  
 2: 
 -   'images/fulls/2.jpg'
--   ' never scribbled on walls as a ch '
+des:   ' never scribbled on walls as a ch '
  
 
  
 3:
 -  "images/fulls/3.jpg"
--  "i never scribbled on walls as a child so I'm compensating now, clearly."
+des:  "i never scribbled on walls as a child so I'm compensating now, clearly."
 
  
  

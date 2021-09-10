@@ -17,28 +17,29 @@ layout: default
     </header>
 
 
-  
+
 
 
     <!-- Main -->
     <div id="main">
-      
-        
 
-                
-                <ul>
-                    {% for member in site.data.items %}
-                    {% assign mm = member[1] %}
-                    <li class="thumb">
-                        <a href="https://spdemergency.github.io/{{mm}}" class="image">
-                       
-                        </a>
-                      </li>
-                    {% endfor %}
-                    </ul>
-           
-           
-                <!-- style="background-image: url(""); outline: 0px;" -->
+
+
+        {% for member in site.data.imagemapping %}
+        <ul>
+
+
+            {% for item in member.files %}
+            <li class="thumb">
+                <a href="https://spdemergency.github.io/{{ item.id }}" class="image">
+
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+
+        {% endfor %}
+        <!-- style="background-image: url(""); outline: 0px;" -->
     </div>
 
     <!-- Footer -->
