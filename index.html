@@ -25,11 +25,11 @@ layout: default
 
 
 
-        {% for member in site.data.imagemapping %}
+       
         <ul>
 
 
-            {% for item in member.files %}
+            {% for item in site.data.imagemapping.files %}
             <li class="thumb">
                 <a href="https://spdemergency.github.io/{{ item.id }}" class="image">
 
@@ -38,7 +38,7 @@ layout: default
             {% endfor %}
         </ul>
 
-        {% endfor %}
+     
         <!-- style="background-image: url(""); outline: 0px;" -->
     </div>
 
