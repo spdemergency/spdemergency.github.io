@@ -28,9 +28,9 @@ layout: default
                 
                 <ul>
                     {% for member in site.data.items %}
-                    {% assign mm = member[2] %}
+                    {% assign mm = member[1] %}
                     <li class="thumb">
-                        <a href="https://spdemergency.github.io/mm" class="image">
+                        <a href="https://spdemergency.github.io/{{mm.image}}" class="image">
                        
                         </a>
                       </li>
