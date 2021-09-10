@@ -78,7 +78,7 @@ layout: default
         }
 
         .wrapper {
-            position: absolute;
+            position: relative;
             left: 50%;
             width: 200px;
             min-height: 13px;
@@ -104,7 +104,7 @@ layout: default
 
         .wbot:before {
             content: '';
-            position: absolute;
+            position: relative;
             bottom: 11px;
             left: 50%;
             margin-left: -4px;
@@ -117,7 +117,7 @@ layout: default
 
         .wtop:before {
             content: '';
-            position: absolute;
+            position: relative;
             bottom: 6px;
             left: 50%;
             margin-left: -4px;
@@ -129,7 +129,7 @@ layout: default
         }
 
         .content {
-            position: absolute;
+            position: relative;
             top: 18px;
             width: 100%;
             height: 165px;
@@ -170,20 +170,7 @@ layout: default
             color: #F99 !important;
         }
 
-        h1 {
-            position: absolute;
-            top: 50%;
-            margin-top: -24px;
-            left: 50%;
-            margin-left: -100px;
-            width: 200px;
-
-            font-family: 'Myriad Pro', 'Open Sans', sans-serif;
-            color: #999;
-            font-size: 24px;
-            font-weight: 400;
-            text-align: center;
-        }
+        
     </style>
 
 
@@ -193,13 +180,13 @@ layout: default
         <div class="image-gallery">
             {% for item in site.data.imagemapping.files %}
             <div class="box">
-               
+                <a href="https://spdemergency.github.io/{{ item.id }}" data-toggle="dropdown">
+                    <img src="{{ site.baseurl }}/{{ item.thumb }}" alt="" data-name="{{ item.title }}"
+                        class="img-gallery" onerror="this.style.display='none'" />
+                </a>
                 <div class="wrapper wbot">
                     <div class="content">    
-                        <a href="https://spdemergency.github.io/{{ item.id }}" data-toggle="dropdown">
-                            <img src="{{ site.baseurl }}/{{ item.thumb }}" alt="" data-name="{{ item.title }}"
-                                class="img-gallery" onerror="this.style.display='none'" />
-                        </a>
+                      
                     </div>
                     <textarea class="elevator"></textarea>
                   </div>
