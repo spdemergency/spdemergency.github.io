@@ -8,7 +8,7 @@ url   : 'https://spdemergency.github.io'
 google_analytics_key:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /siteicon.png
+logo: /siteicon.jpg
 description: Digital Art by SPD
 author:
   name:
