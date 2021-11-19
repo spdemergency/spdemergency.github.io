@@ -1,11 +1,14 @@
 html {
 	background: $background;
-	background-image: url('images/favicon.png');
+	
 	color: $color;
 	font-family: 'Lobster', sans-serif;
 	color: $color;
 }
 
+.wrap {
+    background-image: url(images/favicon.png);
+}
 header {
 	display: flex;
 }
