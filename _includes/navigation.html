@@ -7,14 +7,12 @@
 			{% assign class = class | append: " active" %}
 		{% endif %}
 
-		{% if link.name == "Shop" %}
+		{% if link.name == "Shop" or link.name == "Instagram" %}
 		<a href="{% include relative-src.html src=link.link %}" class="{{ class }}" target="_blank">{{ link.name }}</a>
 		{% elsif link.name == "About" or link.name == "Home" %}
 		
 		<a href="{% include relative-src.html src=link.link %}" class="{{ class }}">{{ link.name }}</a>
-		{% elsif link.name == "Instagram"  %}
-		<i class="fab fa-instagram-square"></i>
-		<a href="{% include relative-src.html src=link.link %}" class="{{ class }}"  target="_blank">{{ link.name }}</a>
+	
 		{% endif %}
 	{% endfor %}
 </nav>
